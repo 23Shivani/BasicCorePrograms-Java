@@ -12,9 +12,7 @@ public class Powerof2 {
 		System.out.println("power:");
 		int power = scan.nextInt();
 		
-		System.out.println("num:");
-		int num = scan.nextInt();
-		
+		int num = 4;
 		if (num < 31) {
 			for (int i=1; i<=num; i++) 
 			{
@@ -22,5 +20,6 @@ public class Powerof2 {
 				System.out.println("power of 2 is : "+ power);
 			}
 		}
+	scan.close();
 	}
 }
